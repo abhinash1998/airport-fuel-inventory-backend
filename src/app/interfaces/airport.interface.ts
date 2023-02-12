@@ -1,6 +1,9 @@
-export interface AirportResponse {
+export interface AirportResponse extends AirportRequest {
 	airportId: number;
-	airportName: string;
+}
+
+export interface AirportRequest {
+	airport: string;
 	fuelAvailable: number;
 	fuelCapacity: number;
 }

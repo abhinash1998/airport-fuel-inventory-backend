@@ -2,7 +2,7 @@ import { DataTypes, Model } from 'sequelize';
 import { sequelizeConnection } from '../../config/database';
 import { eTable } from '../enum/table.enum';
 
-interface AirportAttributes {
+export interface AirportAttributes {
 	airport_id: number;
 	airport_name: string;
 	fuel_capacity: number;
