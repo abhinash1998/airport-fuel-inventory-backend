@@ -1,0 +1,11 @@
+{
+  "singleQuote": true,
+  "editor.formatOnSave": true,
+  "useTabs": true,
+  "tabWidth": 4,
+  "source.organizeImports": true,
+  "trailingComma": "none",
+  "bracketSpacing": true,
+  "htmlWhitespaceSensitivity": "ignore",
+  "semi": true
+}
