@@ -1,3 +1,6 @@
 export enum eTable {
-	AIRPORT = 'airport'
+	AIRPORT = 'airport',
+	AIRCRAFT = 'aircraft',
+	USER = 'user',
+	TRANSACTION = 'transaction'
 }
